@@ -1,0 +1,21 @@
+body{background-color: var(--dark-blue);color: white;font-family: Verdana;text-align:center;
+}
+a{text-decoration:underline;color:var(--pale-purple)}
+
+
+
+:root{
+    --blue: #0000CC;
+    --dark-blue: #202080;
+    --light-blue: #CCCCFF;
+    --pale-blue: #6666FF;/*links*/
+    --red: #AA0000;
+    --dark-red: #702020;
+    --pale-red: #FF6666;
+    --purple: #AA00CC;
+    --dark-purple: #702080;
+    --pale-purple: #C679D9;
+    --dead-purple: #B540CD;
+    --light-yellow: #FFFF99;/*translations*/
+    --discord: #5865F2;
+}

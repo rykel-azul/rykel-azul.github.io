@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>testing downloading files - Rykel's Website</title>
+  <link rel="stylesheet" href="/style.css"/><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="/media/meowl.jpg"><script src="/script.js"></script>
+<style>
+    .wrapper{width:100%;display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:200px auto 100px;align-items:center;z-index:1;
+    grid-template-areas:
+    "header header header"
+    "left middle right"
+    "footer footer footer";}
+</style>
+</head>
+<body>
+    
+    
+    <div class="wrapper">
+      <div>header</div>
+      <div>
+        <h1>Fandom CIT picker</h1>
+        <p>picker version: <stretch id="picker_version"></stretch></p>
+      </div>
+      <div>header</div>
+      <div>
+        <h3>default pumpkin model</h3>
+        <p>knight head</p>
+        <p>urokodaki mask</p>
+      </div>
+      <div>
+        <button id="createZip">createZip()</button><br>
+        <a>file2</a>
+      </div>
+      <div>right</div>
+      <div>footer</div>
+      <div>footer</div>
+      <div>footer</div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="/fandom_cit-picker/script.js"></script>
+</body>
+</html>
