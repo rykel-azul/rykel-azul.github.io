@@ -1,0 +1,55 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Nezuko's Muzzle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:ds/nezuko_bamboo"
+        }
+      },
+      {
+        "when": "Muzan's Hat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:ds/muzan_hat"
+        }
+      },
+      {
+        "when": "Urokodaki's Mask",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:ds/urokodaki_mask"
+        }
+      },
+      {
+        "when": "The Knight's Head",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:hk/knight_head"
+        }
+      },
+      {
+        "when": "The Knight's Shade's Head",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:hk/shade_head"
+        }
+      },
+      {
+        "when": "Power's Horns",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:csm/power_horns"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/carved_pumpkin"
+    }
+  }
+}

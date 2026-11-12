@@ -1,0 +1,90 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Last Breath 1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:ut/lb/phase_1"
+        }
+      },
+      {
+        "when": "Last Breath 1,5",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:ut/lb/phase_1-5"
+        }
+      },
+      {
+        "when": "Last Breath 2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:ut/lb/phase_2"
+        }
+      },
+      {
+        "when": "Last Breath 3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:ut/lb/phase_3"
+        }
+      },
+      {
+        "when": "Last Breath 3,5",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:ut/lb/phase_3-5"
+        }
+      },
+      {
+        "when": "Last Breath Custom",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:ut/lb/phase_custom"
+        }
+      },
+      {
+        "when": "Miku",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:tqq/miku"
+        }
+      },
+      {
+        "when": "Ichika",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:tqq/ichika"
+        }
+      },
+      {
+        "when": "Itsuki",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:tqq/itsuki"
+        }
+      },
+      {
+        "when": "Nino",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:tqq/nino"
+        }
+      },
+      {
+        "when": "Yotsuba",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fandom_cit:tqq/yotsuba"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/totem_of_undying"
+    }
+  }
+}

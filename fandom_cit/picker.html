@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fandom CIT Picker - Rykel's Website</title><link rel="icon" href="./media/pack.png">
+  <link rel="stylesheet" href="/style.css"/><link rel="stylesheet" href="./picker.css"/><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="/script.js"></script>
+<style>
+    .wrapper{width:100%;display:grid;grid-template-columns:4fr 5fr 4fr;grid-template-rows:200px auto 100px;align-items:center;z-index:1;
+    grid-template-areas:
+    "header header header"
+    "left middle right"
+    "footer footer footer";}
+    button{
+      height:50px;width:80%
+    }
+    select{
+      width:220px;height:20px
+    }
+    option{
+      width:220px;height:20px
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+      <div>header</div>
+      <div>
+        <h1>Fandom CIT picker</h1>
+        <p>picker version: <strong id="picker_version"></strong></p>
+        <p>resourcepack version: <strong id="resourcepack_version"></strong></p>
+        <p>game version: <strong id="game_version"></strong></p>
+      </div>
+      <div>
+        <button id="createZip">createZip()</button><br>
+        <a>file2</a>
+      </div>
+      <div>
+        <label for="default-pumpkin">Choose a default Carved Pumpkin model:</label>
+        <select name="carved_pumpkin" id="default-carved_pumpkin">
+          <option value="default">Carved Pumpkin</option>
+          <option value="ds/nezuko_bamboo">(DS) Nezuko's Muzzle</option>
+          <option value="ds/muzan_hat">(DS) Muzan's Hat</option>
+          <option value="ds/urokodaki_mask">(DS) Urokodaki's Mask</option>
+          <option value="hk/knight_head">(HK) The Knight's Head</option>
+          <option value="hk/shade_head">(HK) The Knight's Shade's Head</option>
+          <option value="csm/power_horns">(CSM) Power's Horns</option>
+        </select>
+        <br><br>
+        <label for="default-totem">Choose a default Totem of Undying model:</label>
+        <select name="totem_of_undying" id="default-totem_of_undying">
+          <option value="default">Totem of Undying</option>
+          <option value="ut/lb/phase_1">(ULB) Last Breath 1</option>
+          <option value="ut/lb/phase_1-5">(ULB) Last Breath 1,5</option>
+          <option value="ut/lb/phase_2">(ULB) Last Breath 2</option>
+          <option value="ut/lb/phase_3">(ULB) Last Breath 3</option>
+          <option value="ut/lb/phase_3-5">(ULB) Last Breath 3,5</option>
+          <option value="ut/lb/phase_custom">(ULB) Last Breath Custom</option>
+          <option value="tqq/miku">(TQQ) Miku</option>
+          <option value="tqq/ichika">(TQQ) Ichika</option>
+          <option value="tqq/itsuki">(TQQ) Itsuki</option>
+          <option value="tqq/nino">(TQQ) Nino</option>
+          <option value="tqq/yotsuba">(TQQ) Yotsuba</option>
+        </select>
+        <br><br>
+        <label for="default-netherite_sword">Choose a default Netherite Sword model:</label>
+        <select name="netherite_sword" id="default-netherite_sword">
+          <option value="default">Netherite Sword</option>
+          <option value="ds/tanjiro_katana">(DS) Tanjiro's Katana</option>
+          <option value="ds/zenitsu_katana">(DS) Zenitsu's Katana</option>
+        </select>
+        <br><br>
+        <label for="default-diamond_sword">Choose a default Diamond Sword model:</label>
+        <select name="diamond_sword" id="default-diamond_sword">
+          <option value="default">Diamond Sword</option>
+          <option value="ds/tanjiro_katana">(DS) Tanjiro's Katana</option>
+          <option value="ds/zenitsu_katana">(DS) Zenitsu's Katana</option>
+        </select>
+        <br><br>
+        <label for="default-crossbow">Choose a default Crossbow model:</label>
+        <select name="crossbow" id="default-crossbow">
+          <option value="default">Crossbow</option>
+          <option value="ds/genya_gun">(DS) Genya's Gun</option>
+        </select>
+        <br><br>
+      </div>
+      <div>
+        <h2>abreviations:</h2>
+        <p><strong>HK:</strong> Hollow Knight</p><p><strong>DS:</strong> Demon Slayer</p><p><strong>CSM:</strong> Chainsaw Man</p><p><strong>UT:</strong> Undertale</p><p><strong>UTLB:</strong> Undertale Last Breath</p><p><strong>TQQ:</strong> The Quintessential Quintuplets</p>
+      </div>
+      <div> right</div>
+      <div>footer</div>
+      <div>footer</div>
+      <div>footer</div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="./picker.js"></script>
+</body>
+</html>
